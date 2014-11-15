@@ -1,0 +1,3 @@
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.Ym9qQzwP3P/Render
+GEM_HOME=/Users/Mimmo/.rvm/gems/ruby-2.0.0-p598
+GEM_PATH=/Users/Mimmo/.rvm/gems/ruby-2.0.0-p598:/Users/Mimmo/.rvm/gems/ruby-2.0.0-p598@global

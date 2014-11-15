@@ -1,0 +1,40 @@
+  640  ruby directory.rb
+  641  ruby directory.rb
+  642  ruby directory.rb
+  643  ruby directory.rb
+  644  ruby directory.rb
+  645  ruby directory.rb
+  646  ruby directory.rb
+  647  cd
+  648  cd desktop
+  649  mkdir -p my/private/files
+  650  mkdir -p my/public/files
+  651  touch my/private/files/t-vars.env
+  652  echo -e "List of env vars that begin with T\n" >> t-vars.env
+  653  echo -e "List of env vars that begin with T\n" >> my/private/files/t-vars.env
+  654  env | grep ^T >> my/private/files/t-vars.env
+  655  echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+  656  COUNT =`env | grep ^T | wc -l`
+  657  COUNT=`env | grep ^T | wc -l`
+  658  echo "Overall count: $COUNT" > my/public/files/t-vars.count
+  659  cd my/private/files
+  660  ls -l
+  661  chmod go-r t-vars.env
+  662  ls -l
+  663  cd ../..
+  664  ls -l
+  665  cd private
+  666  ls -l
+  667  chmod go-rx files/
+  668  ls -l
+  669  cd ..
+  670  cd public/files
+  671  chmod a+rw t-vars.count
+  672  ls -l
+  673  find ~ -name "*.txt" | wc -l > text-files-count.txt
+  674  ls
+  675  cat text-files-count.txt
+  676  cd ../..
+  677  env | sort | head -3 > private/files/first-three-env.txt
+  678  history 50
+  679  history 40 > private/files/commands.txt
